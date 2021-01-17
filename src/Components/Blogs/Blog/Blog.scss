@@ -1,0 +1,45 @@
+.blog {
+  position: relative;
+  width: 290px;
+  height: 445px;
+  border: none;
+  background: white;
+  margin: 10px;
+  z-index: 10;
+  .blog__img {
+    position: absolute;
+    width: 290px;
+    height: 270px;
+    top: 0;
+    border: 10px solid white;
+  }
+  .blog__description {
+    position: absolute;
+    width: 220px;
+    height: 100px;
+    left: 15px;
+    top: 280px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 130.9%;
+    color: #000000;
+  }
+  .blog__knowMore {
+    position: absolute;
+    width: 134px;
+    height: 30px;
+    left:15px;
+    top: 400px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+}
+@media(max-width:480px){
+  .blog{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

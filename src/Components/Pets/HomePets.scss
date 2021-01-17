@@ -1,0 +1,167 @@
+div {
+  .giftAd {
+    position: relative;
+    overflow: hidden;
+    .giftAdImg {
+      position: relative;
+      width: 100%;
+      top: 0;
+      max-height: 223px;
+      min-height: 145px;
+      border: none;
+      z-index: 10;
+    }
+    h2 {
+      position: absolute;
+      width: 480px;
+      height: 90px;
+      left: 16%;
+      top: 3vh;
+      z-index: 10;
+      font-family: Marcellus, Malvie, Raleway;
+      font-style: normal;
+      font-weight: lighter;
+      font-size: 35px;
+      color: #000000;
+      span {
+        font-family: Malvie, Marcellus, Raleway;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+    button {
+      position: absolute;
+      width: 150px;
+      height: 42px;
+      left: 41%;
+      bottom: 3vh;
+      // top: 20vh;
+      z-index: 10;
+      background: #ad974f;
+      border-radius: 78.0769px;
+      border: none;
+      a {
+        text-decoration: none;
+        color: #000000;
+        width: 65px;
+        height: 18px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+      }
+    }
+  }
+  .homePets {
+    position: relative;
+    width: 100%;
+    background: #231f20;
+    min-height: 560px;
+    max-height: max-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .homePetsHeader {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-left: 16%;
+      padding-right: 16%;
+      h2 {
+        width: max-content;
+        height: 81px;
+        font-family: Prata;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 81px;
+        color: #ffffff;
+      }
+      .homePetImg {
+        width: 75.7px;
+        height: 60.12px;
+        transform: rotate(13.65deg);
+        margin-left: 10px;
+      }
+      .homePetsLink {
+        text-align: right;
+        height: 21px;
+        flex: 1;
+        p {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 21px;
+          text-decoration-line: underline;
+          color: #ffffff;
+        }
+      }
+    }
+
+    .homePetsCard {
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .giftAd {
+      .giftAdImg {
+        width: 100%;
+        top: 0;
+        max-height: 120px;
+      }
+      h2 {
+        width: 62%;
+        height: 30px;
+        left: 7%;
+        top: 5vh;
+        font-size: 20px;
+      }
+      button {
+        width: 27%;
+        height: 30px;
+        left: 23%;
+        bottom: 5vh;
+        a {
+          width: 65px;
+          height: 18px;
+          font-size: 18px;
+          line-height: 21px;
+        }
+      }
+    }
+    .homePets {
+      padding-top: 180px;
+      .homePetsHeader {
+        padding: 0 5%;
+        h2 {
+          font-size: 35px;
+        }
+        .homePetImg {
+          position: absolute;
+          width: 55.7px;
+          height: 40.12px;
+          left: 10%;
+          top: -8px;
+        }
+        .homePetsLink {
+          text-align: right;
+          flex: 1;
+          width: 68px;
+          p {
+            width: 68px;
+            left: 72%;
+            top: 59px;
+            font-size: 18px;
+            line-height: 21px;
+            z-index: 10;
+          }
+        }
+      }
+    }
+  }
+}

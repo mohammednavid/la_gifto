@@ -1,0 +1,379 @@
+.accountSettings__container {
+  width: 100%;
+  margin-top: 35px;
+  background-color: #fff;
+  padding: 4%;
+  border-radius: 10px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    margin-top: 25px;
+    }
+  .accountSettings__name {
+    width: 100%;
+    padding-bottom: 20px;
+    .accountSettings__nameHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .accountSettings__nameHeaderTitle {
+        width: 308px;
+        height: 41px;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          font-size: 25px;
+          width: 50%;
+          height: 60px;
+          line-height: 30px;
+          }
+      }
+      .accountSettings__nameHeaderEdit {
+        width: 33px;
+        height: 25px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 138.9%;
+        text-decoration-line: underline;
+        color: #ad974f;
+      }
+    }
+    .accountSettings__nameContent {
+      display: flex;
+      align-items: center;
+      padding: 25px 0;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+      input {
+        width: 374.84px;
+        height: 56.2px;
+        margin-right: 30px;
+        padding-left: 25px;
+        font-size: 16px;
+        font-weight: 700;
+        border: 2px solid #000000;
+        border-radius: 100px;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          margin: 0;
+          width: 85%;
+          height: 45px;
+          margin-bottom: 10px;
+          }
+        &::placeholder {
+          color: #000000;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+  }
+  .accountSettings__gender {
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    .accountSettings__genderHeader {
+      width: 308px;
+      height: 41px;
+      font-size: 30px;
+      line-height: 41px;
+      color: #000000;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        font-size: 25px;
+        line-height: 30px;
+        height: 30px;
+        }
+    }
+    .accountSettings__genderContent {
+        width: 100%;
+        display: flex;
+      padding: 25px 0;
+      .accountSettings__genderOption1 {
+        display: flex;
+        align-items: center;
+        input {
+          margin-right: 5px;
+          width: 13px;
+          height: 13px;
+        }
+        p {
+          width: 58px;
+          height: 35px;
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 138.9%;
+          color: #000000;
+          @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+            font-size: 22px;
+            }
+        }
+      }
+      .accountSettings__genderOption2 {
+        display: flex;
+        align-items: center;
+      }
+      input {
+        margin-right: 5px;
+        width: 13px;
+        height: 13px;
+      }
+      p {
+        width: 58px;
+        height: 35px;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 138.9%;
+        color: #000000;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          font-size: 22px;
+          }
+      }
+    }
+  }
+  .accountSettings__email {
+    width: 100%;
+    padding-bottom: 20px;
+    .accountSettings__emailHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .accountSettings__emailHeaderTitle {
+        width: 308px;
+        height: 41px;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          font-size: 25px;
+          line-height: 30px;
+          height: 30px;
+          }
+      }
+      .accountSettings__emailHeaderEdit {
+        width: 33px;
+        height: 25px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 138.9%;
+        text-decoration-line: underline;
+        color: #ad974f;
+      }
+    }
+    .accountSettings__emailInput {
+      width: 374.84px;
+      height: 56.2px;
+      padding-left: 25px;
+      margin: 25px 0;
+      font-size: 16px;
+      font-weight: 700;
+      border: 2px solid #000000;
+      border-radius: 100px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        width: 85%;
+        height: 45px;
+        margin-left: 7%;
+        }
+      &::placeholder {
+        color: #000000;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+  .accountSettings__mobile {
+    width: 100%;
+    padding-bottom: 20px;
+    .accountSettings__mobileHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .accountSettings__mobileHeaderTitle {
+        width: 308px;
+        height: 41px;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          font-size: 25px;
+          line-height: 30px;
+          height: 30px;
+          }
+      }
+      .accountSettings__mobileHeaderEdit {
+        width: 33px;
+        height: 25px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 138.9%;
+        text-decoration-line: underline;
+        color: #ad974f;
+      }
+    }
+    .accountSettings__mobileInput {
+      width: 374.84px;
+      height: 56.2px;
+      padding-left: 25px;
+      margin: 25px 0;
+      font-size: 16px;
+      font-weight: 700;
+      border: 2px solid #000000;
+      border-radius: 100px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        width: 85%;
+        height: 45px;
+        margin-left: 7%;
+        }
+      &::placeholder {
+        color: #000000;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+  .accountSettings__address {
+    width: 100%;
+    padding-bottom: 20px;
+    .accountSettings__addressHeader {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .accountSettings__addressHeaderTitle {
+        width: 308px;
+        height: 41px;
+        font-size: 30px;
+        line-height: 41px;
+        color: #000000;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          font-size: 25px;
+          line-height: 30px;
+          height: 30px;
+          }
+      }
+      .accountSettings__addressHeaderEdit {
+        width: 33px;
+        height: 25px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 138.9%;
+        text-decoration-line: underline;
+        color: #ad974f;
+      }
+    }
+    .accountSettings__addressModal {
+      .shipping__addressButton{
+        cursor: pointer;
+        border:2px solid #000000;
+        color: #000000;
+        .shipping__addressIcon{
+          color: #000000;
+        }
+        input{
+          cursor: pointer;
+        &::placeholder {
+          color: #000000;
+        }
+        }
+        }
+      }
+    }
+  }
+  .accountSettings__savedAddContainer {
+    width: 100%;
+    border: 2px solid #9a9a9a;
+    border-radius: 10px;
+    .accountSettings__savedAdd {
+      width: 100%;
+      padding: 3%;
+      .accountSettings__savedAddHeader {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .accountSettings__savedAddLeft {
+          display: flex;
+          flex-direction: column;
+          .accountSettings__savedAddType {
+            width: 86px;
+            height: 28px;
+            background: #000000;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+          }
+          .accountSettings__savedAddContact {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000000;
+            margin-bottom: 25px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      font-size: 18px;
+    width: 75%;}
+            span {
+              margin-right: 20px;
+            }
+          }
+        }
+        .accountSettings__savedAddRight {
+          display: flex;
+          justify-content: flex-end;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      flex-wrap: wrap;
+      }
+          .accountSettings__savedAddEdit {
+            width: 113px;
+            height: 44px;
+            font-weight: 600;
+            font-size: 15.6154px;
+            line-height: 18px;
+            color: #000000;
+            background: #ad974f;
+            border-radius: 78.0769px;
+            border: none;
+            margin: 10px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      font-size: 14px;
+      height: 40px;
+      width: 100px;
+      }
+          }
+          .accountSettings__savedAddDelete {
+            width: 113px;
+            height: 44px;
+            font-weight: 600;
+            font-size: 15.6154px;
+            line-height: 18px;
+            color: #000000;
+            border: 2px solid #ad974f;
+            box-sizing: border-box;
+            border-radius: 78.0769px;
+            margin: 10px;
+            @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+              font-size: 14px;
+              height: 40px;
+              width: 100px;
+              }
+          }
+        }
+      }
+      .accountSettings__savedAddDetails {
+        width: 100%;
+        font-size: 18px;
+        line-height: 130%;
+        color: #090909;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+          font-size: 15px;
+          }
+      }
+    }
+  }

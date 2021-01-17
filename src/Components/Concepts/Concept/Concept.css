@@ -1,0 +1,50 @@
+.concept {
+  position: relative;
+  width: 290px;
+  height: 445px;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  margin: 10px;
+  z-index: 10;
+}
+
+.concept .concept__img {
+  position: absolute;
+  width: 290px;
+  height: 270px;
+  top: 0;
+}
+
+.concept .concept__description {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 0px;
+  top: 300px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #ffffff;
+}
+
+.concept .concept__knowMore {
+  position: absolute;
+  width: 134px;
+  height: 30px;
+  left: 0;
+  top: 415px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .concept {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*# sourceMappingURL=Concept.css.map */

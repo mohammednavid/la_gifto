@@ -1,0 +1,58 @@
+const WishlistData = [
+  {
+    id: "WL1",
+    image: "./Images/carousal.png",
+    title: "Lorem ipsum dolor sit.",
+    ratings: "****",
+    originalPrice: "₹400",
+    afterDiscountPrice: "₹200",
+    discount: "50% off",
+  },
+  {
+    id: "WL2",
+    image: "./Images/carousal.png",
+    title: "Lorem ipsum dolor sit.",
+    ratings: "****",
+    originalPrice: "₹400",
+    afterDiscountPrice: "₹200",
+    discount: "50% off",
+  },
+  {
+    id: "WL3",
+    image: "./Images/carousal.png",
+    title: "Lorem ipsum dolor sit.",
+    ratings: "****",
+    originalPrice: "₹400",
+    afterDiscountPrice: "₹200",
+    discount: "50% off",
+  },
+  {
+    id: "WL4",
+    image: "./Images/carousal.png",
+    title: "Lorem ipsum dolor sit.",
+    ratings: "****",
+    originalPrice: "₹400",
+    afterDiscountPrice: "₹200",
+    discount: "50% off",
+  },
+  {
+    id: "WL5",
+    image: "./Images/carousal.png",
+    title: "Lorem ipsum dolor sit.",
+    ratings: "****",
+    originalPrice: "₹400",
+    afterDiscountPrice: "₹200",
+    discount: "50% off",
+  },
+  {
+    id: "WL6",
+    image: "./Images/carousal.png",
+    title: "Lorem ipsum dolor sit.",
+    ratings: "****",
+    originalPrice: "₹400",
+    afterDiscountPrice: "₹200",
+    discount: "50% off",
+  },
+];
+
+export {WishlistData};

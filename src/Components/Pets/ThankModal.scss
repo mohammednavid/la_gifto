@@ -1,0 +1,58 @@
+.thankModal__container {
+    width: 30%;
+    margin-left: 35%;
+  margin-top: 15px;
+  border-radius: 10px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 488px) {
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 108px;
+  }
+  .thankModal__content {
+    padding: 4% 5%;
+    background-color: #ffffff;
+    overflow: visible;
+    .thankModal__icon {
+      text-align: center;
+      .CheckCircleOutlineIcon {
+        width: 75px;
+        height: 75px;
+        color: #6ec11b;
+      }
+    }
+    .thankModal__msg {
+      width: auto;
+      height: 100px;
+      font-family: Modesty, Raleway;
+      font-size: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #000000;
+      padding-top: 20px;
+    }
+    .thankModal__confirmation {
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      color: #000000;
+    }
+    .thankModal__buttonDiv {
+        display: flex;
+        justify-content: center;
+        .thankModal__button {
+          width: 215.61px;
+          height: 50.14px;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 23px;
+          color: #000000;
+          background: #ad974f;
+          border-radius: 100px;
+          border: none;
+          outline: none;
+          margin-top: 30px;
+        }
+      }
+  }
+}

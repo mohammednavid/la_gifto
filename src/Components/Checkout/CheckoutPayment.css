@@ -1,0 +1,291 @@
+.checkoutPayment {
+  width: 100%;
+  background-color: #231f20;
+  overflow: hidden;
+  padding: 3% 10%;
+  padding-top: 0;
+  margin-top: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment {
+    padding: 3% 5%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left {
+  min-width: 65%;
+  margin-right: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__left {
+    margin: 0;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__header {
+  padding: 25px 0px;
+  width: auto;
+  font-family: Prata, Raleway;
+  font-size: 25px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer .checkoutPayment__order {
+  padding: 4%;
+  width: 100%;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer .checkoutPayment__order .order__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer .checkoutPayment__order .order__header .order__headerLeft {
+  width: auto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer .checkoutPayment__order .order__header .order__headerRight {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 138.9%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ad974f;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__orderContainer .checkoutPayment__order .order__description {
+  width: 100%;
+  font-size: 18px;
+  line-height: 130%;
+  color: #090909;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__header {
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  -webkit-box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+          box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+  padding: 2% 4%;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container {
+  padding: 2% 4%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container {
+    padding: 2%;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.5% 0px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardLogo {
+  width: 20px;
+  height: 20px;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardName {
+  width: auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  margin-left: -20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardName {
+    margin: 0;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardNum {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #adadad;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardCVV {
+  width: 93px;
+  height: 36px;
+  border: 1px solid #adadad;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardCVV::-webkit-input-placeholder {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #adadad;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardCVV:-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #adadad;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardCVV::-ms-input-placeholder {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #adadad;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardCVV::placeholder {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #adadad;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardButton {
+  width: 175px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  background: #ad974f;
+  border: none;
+  border-radius: 100px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__left .checkoutPayment__savedCards .savedCards__container .savedCards__cardSaved .savedCards__cardButton {
+    width: 120px;
+    height: 45px;
+  }
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__otherPayment {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.checkoutPayment .checkoutPayment__left .otherPayment__header {
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  -webkit-box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+          box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+  padding: 2% 4%;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__optionsContainer {
+  padding: 2% 4%;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__optionsContainer .otherPayment__option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 1.5% 0px;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__optionsContainer .otherPayment__option .otherPayment__optionCheck {
+  margin-right: 6%;
+}
+
+.checkoutPayment .checkoutPayment__left .checkoutPayment__optionsContainer .otherPayment__option .otherPayment__optionName {
+  width: auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.checkoutPayment .checkoutPayment__right {
+  min-width: 73.5%;
+  margin-top: 65px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .checkoutPayment .checkoutPayment__right {
+    margin-top: 20px;
+    min-width: 117.5%;
+  }
+}
+/*# sourceMappingURL=CheckoutPayment.css.map */

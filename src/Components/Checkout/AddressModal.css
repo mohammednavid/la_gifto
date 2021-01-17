@@ -1,0 +1,321 @@
+.shipping__addressButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 100%;
+  height: 56px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: 25px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .shipping__addressButton {
+    height: 45px;
+  }
+}
+
+.shipping__addressButton .shipping__addressIcon {
+  margin: 0 10px;
+  font-size: 30px;
+  z-index: 10;
+  color: #dfdfdf;
+}
+
+.shipping__addressButton .shipping__addressInput {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  outline: none;
+  padding: 20px;
+  padding-left: 50px;
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.shipping__addressButton .shipping__addressInput::-webkit-input-placeholder {
+  color: #dfdfdf;
+}
+
+.shipping__addressButton .shipping__addressInput:-ms-input-placeholder {
+  color: #dfdfdf;
+}
+
+.shipping__addressButton .shipping__addressInput::-ms-input-placeholder {
+  color: #dfdfdf;
+}
+
+.shipping__addressButton .shipping__addressInput::placeholder {
+  color: #dfdfdf;
+}
+
+.addressModal__container {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 488px) {
+  .addressModal__container {
+    width: 90%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+}
+
+.addressModal__container .addressModal__content {
+  padding: 4% 5%;
+  background-color: #ffffff;
+  overflow: visible;
+}
+
+.addressModal__container .addressModal__content .addressModal__header {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  width: 100%;
+  color: #000000;
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .addressModal__container .addressModal__content .addressModal__inputAndName {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 100px;
+  margin: 0px 5px;
+  border: 2px solid #000000;
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input {
+    margin: 5px;
+  }
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input .addressModal__inputName {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #000000;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input input {
+  position: absolute;
+  left: 1%;
+  top: 0;
+  width: 98%;
+  height: 45px;
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input input {
+    width: 80%;
+    height: 36px;
+  }
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input input:active, .addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input input:hover, .addressModal__container .addressModal__content .addressModal__inputAndName .addressModal__input input:focus {
+  outline: none;
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAddress {
+  width: 98%;
+  height: 100px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 20px;
+  margin: 15px 5px;
+  border: 2px solid #000000;
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .addressModal__container .addressModal__content .addressModal__inputAddress {
+    width: 98%;
+    height: 50px;
+    border-radius: 100px;
+  }
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAddress .addressModal__inputDetails {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #000000;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.addressModal__container .addressModal__content .addressModal__inputAddress input {
+  position: absolute;
+  left: 1%;
+  top: 0;
+  width: 95%;
+  height: 45px;
+  padding-left: 2.5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .addressModal__container .addressModal__content .addressModal__inputAddress input {
+    width: 95%;
+    height: 36px;
+  }
+}
+
+.addressModal__container .addressModal__content .addressModal__line {
+  border-top: 1.2px solid #7c7c7c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addressModal__container .addressModal__content .address__typeTitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  width: 100%;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.addressModal__container .addressModal__content .addressModal__type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .addressModal__container .addressModal__content .addressModal__type {
+    width: 70%;
+  }
+}
+
+.addressModal__container .addressModal__content .addressModal__type .types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addressModal__container .addressModal__content .addressModal__type .types p {
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.addressModal__container .addressModal__content .addressModal__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addressModal__container .addressModal__content .addressModal__checkbox input {
+  margin-right: 5px;
+}
+
+.addressModal__container .addressModal__content .addressModal__checkbox p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.addressModal__container .addressModal__content .addressModal__buttonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.addressModal__container .addressModal__content .addressModal__buttonDiv .addressModal__button {
+  width: 215.61px;
+  height: 50.14px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=AddressModal.css.map */

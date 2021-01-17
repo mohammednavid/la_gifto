@@ -1,0 +1,262 @@
+.brandConcepts {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #231f20;
+  overflow: hidden;
+  margin-top: 108px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.brandConcepts .brandConcepts__ad {
+  width: 100%;
+  height: 233px;
+  position: relative;
+  background: #cbdeb4;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConcepts__ad {
+    height: 120px;
+  }
+}
+
+.brandConcepts .brandConcepts__ad .brandConcepts__adImg {
+  position: absolute;
+  left: 65.49%;
+  right: 18.59%;
+  top: 3.01%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: auto;
+  max-height: 232px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConcepts__ad .brandConcepts__adImg {
+    max-height: 110px;
+    top: 10%;
+  }
+}
+
+.brandConcepts .brandConcepts__ad .brandConcepts__adText {
+  position: absolute;
+  width: 50%;
+  height: 106px;
+  left: 183px;
+  top: 5%;
+  font-family: Marcellus, Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConcepts__ad .brandConcepts__adText {
+    width: 65%;
+    height: 50px;
+    left: 5%;
+    top: 10%;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.brandConcepts .brandConcepts__ad .brandConcepts__adText span {
+  font-family: Malvie, Marcellus, Raleway;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.brandConcepts .brandConcepts__ad .brandConcepts__adButton {
+  position: absolute;
+  width: 230px;
+  height: 65px;
+  left: 609px;
+  bottom: 5%;
+  background: #231f20;
+  border-radius: 100px;
+  border: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConcepts__ad .brandConcepts__adButton {
+    width: 37%;
+    height: 35px;
+    left: 40%;
+    bottom: 10%;
+  }
+}
+
+.brandConcepts .brandConcepts__ad .brandConcepts__adButton a {
+  text-decoration: none;
+  width: 121px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConcepts__ad .brandConcepts__adButton a {
+    width: 65px;
+    height: 18px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+.brandConcepts .brandConceptsContent .brandConcepts__header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConceptsContent .brandConcepts__header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.brandConcepts .brandConceptsContent .brandConcepts__header h2 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 81px;
+  font-family: Prata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 81px;
+  color: #ffffff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConceptsContent .brandConcepts__header h2 {
+    font-size: 35px;
+    line-height: 35px;
+    padding-top: 25px;
+  }
+}
+
+.brandConcepts .brandConceptsContent .brandConcepts__header .brandConceptImg {
+  width: 75.7px;
+  height: 60.12px;
+  -webkit-transform: rotate(13.65deg);
+          transform: rotate(13.65deg);
+  margin-left: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .brandConcepts .brandConceptsContent .brandConcepts__header .brandConceptImg {
+    position: absolute;
+    width: 55.7px;
+    height: 40.12px;
+    left: 10%;
+    top: 38px;
+  }
+}
+
+.brandConcepts .brandConceptsContent .brandConcepts__header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 21px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.brandConcepts .brandConceptsContent .brandConcepts__header a img {
+  margin-right: 6px;
+}
+
+.brandConcepts .brandConceptsContent .brandConceptsCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.brandConcepts .brandConceptsContent .brandConceptsCard .brandConcept {
+  position: relative;
+  width: 290px;
+  height: 380px;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  margin: 10px;
+  z-index: 10;
+}
+
+.brandConcepts .brandConceptsContent .brandConceptsCard .brandConcept .brandConcept__img {
+  position: absolute;
+  width: 290px;
+  height: 270px;
+  background-color: #ffffff;
+  top: 0;
+}
+
+.brandConcepts .brandConceptsContent .brandConceptsCard .brandConcept .brandConcept__title {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 0px;
+  top: 300px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #ffffff;
+}
+
+.brandConcepts .brandConceptsContent .brandConceptsCard .brandConcept .brandConcept__allProducts {
+  position: absolute;
+  width: auto;
+  height: 30px;
+  left: 0;
+  top: 340px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}
+/*# sourceMappingURL=BrandConcepts.css.map */

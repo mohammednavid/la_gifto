@@ -1,0 +1,226 @@
+.success {
+  width: 100%;
+  padding: 3% 10%;
+  background: #231f20;
+  margin-top: 108px;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+    padding: 3% 5%;
+    }
+  .success__container {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 3% 6%;
+    border-radius: 10px;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+      padding: 3% 5%;
+      }
+    .success__icon {
+      text-align: center;
+      .CheckCircleOutlineIcon {
+        width: 75px;
+        height: 75px;
+        color: #6ec11b;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+          width: 60px;
+          height: 60px;
+          }
+      }
+    }
+    .success__msg {
+      width: auto;
+      height: 100px;
+      font-family: Modesty, Raleway;
+      font-size: 50px;
+      line-height: 50px;
+      text-align: center;
+      color: #000000;
+      padding-top: 20px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+        font-size: 35px;
+        line-height: 35px;
+        }
+    }
+    .success__confirmation {
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      color: #000000;
+      padding-top: 40px;
+    }
+    .success__email {
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      color: #000000;
+      font-weight: 600;
+    }
+    .success__line {
+      border-top: 1.2px solid #7c7c7c;
+      margin: 25px 0px;
+    }
+    .success__title {
+      width: auto;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 29px;
+      text-decoration-line: underline;
+      color: #000000;
+    }
+    .success__order {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      padding: 10px 0px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        }
+      .success__details {
+        width: 100%;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        padding-right: 10px;
+        span {
+          font-weight: normal;
+        }
+        .success__paymentMethod {
+          display: flex;
+          align-items: center;
+          justify-content: start;
+          @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            }
+          span {
+            font-weight: 600;
+          }
+          .paymentMethod__cardLogo {
+            width: 20px;
+            height: 20px;
+            margin: 0px 5px;
+          }
+          .paymentMethod__cardName {
+            width: auto;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 18px;
+            color: #000000;
+            margin-right: 5px;
+          }
+          .paymentMethod__cardNum {
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 14px;
+            color: #adadad;
+          }
+        }
+      }
+    }
+    .success__bottom {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+      .success__orderSummary {
+        width: 100%;
+        .orderSummary__title {
+          width: auto;
+          font-weight: bold;
+          font-size: 25px;
+          line-height: 29px;
+          text-decoration-line: underline;
+          color: #000000;
+          padding-bottom: 30px;
+        }
+        .orderSummary__fullDetails {
+          display: flex;
+          align-items: flex-start;
+          @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+            width: 100%;
+            }
+          .orderSummary__img {
+            width: 125px;
+            height: 125px;
+            margin-right: 20px;
+          }
+          .orderSummary__details {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-evenly;
+            .orderSummary__detailsTitle {
+              width: auto;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 130%;
+              color: #090909;
+              padding-bottom: 15px;
+            }
+            .orderSummary__detailsPrice {
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 28px;
+              color: #000000;
+              padding-bottom: 10px;
+            }
+            .orderSummary__detailsQuantity {
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 130%;
+              color: #090909;
+            }
+          }
+        }
+      }
+      .success__orderRatings {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+          width: 100%;
+          }
+        .orderRatings__title {
+          width: 100%;
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 175.9%;
+          color: #000000;
+        }
+        .orderRatings__descp {
+          width: 100%;
+          font-size: 15px;
+          line-height: 175.9%;
+          color: #000000;
+        }
+        .orderRatings__button {
+          width: 215.61px;
+          height: 50.14px;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 23px;
+          color: #000000;
+          background: #ad974f;
+          border-radius: 100px;
+          border: none;
+          outline: none;
+          margin-top: 15px;
+          cursor: pointer;
+          @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+            width: 80%;
+            margin-left: 10%;
+            }
+        }
+      }
+    }
+  }
+}

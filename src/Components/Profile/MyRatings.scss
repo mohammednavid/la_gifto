@@ -1,0 +1,168 @@
+.ratings {
+  width: 100%;
+  background-color: #fff;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top: 35px;
+  .ratings__header {
+    width: 100%;
+    font-family: Prata, Raleway;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+  .ratings__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 25px;
+    position: relative;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      overflow: visible;
+    }
+    .ratings__heroImg {
+      width: 107.94px;
+      height: 99.27px;
+      padding-right: 15px;
+    }
+    .ratings__nameNPrice {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      padding: 20px;
+      padding-left: 10px;
+      .ratings__name {
+        width: 125px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 50px;
+        color: #000000;
+        margin-top: -20px;
+      }
+      .ratings__descp {
+        width: 324px;
+        height: 21px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 140%;
+        color: #090909;
+      }
+      .ratings__price {
+        width: 48px;
+        height: 25px;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 240%;
+        color: #090909;
+      }
+    }
+    .ratings__date {
+      min-width: 150px;
+      height: 25px;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 140%;
+      color: #090909;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        position: absolute;
+        bottom: -28%;
+      }
+    }
+  }
+  .ratings__review {
+    width: 100%;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #090909;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      font-size: 20px;
+      flex-direction: column;
+      align-items: start;
+      padding-top: 50px;
+    }
+    p {
+      margin-right: 30px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        margin-right: 10px;
+      }
+    }
+  }
+  .ratings__fullDetails {
+    width: 100%;
+    font-size: 18px;
+    line-height: 130%;
+    color: #090909;
+    padding: 20px 0px;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      font-size: 16px;
+      padding: 10px 0px;
+    }
+  }
+  .ratings__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      justify-content: center;
+      flex-direction: column;
+    }
+    .ratings__gallery {
+      width: 100%;
+      display: flex;
+      padding-bottom: 20px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        justify-content: center;
+      }
+    }
+    img {
+      width: 68px;
+      height: 62px;
+    }
+  }
+  .ratings__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    .ratings__edit {
+      width: 130px;
+      height: 44px;
+      font-weight: 600;
+      font-size: 15.6154px;
+      line-height: 18px;
+      color: #000000;
+      background: #ad974f;
+      border: 2px solid #ad974f;
+      box-sizing: border-box;
+      border-radius: 78.0769px;
+      margin: 0px 15px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        width: 45%;
+      }
+    }
+    .ratings__delete {
+      width: 130px;
+      height: 44px;
+      font-weight: 600;
+      font-size: 15.6154px;
+      line-height: 18px;
+      color: #000000;
+      border: 2px solid #ad974f;
+      box-sizing: border-box;
+      border-radius: 78.0769px;
+      margin: 0px 15px;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        width: 45%;
+      }
+    }
+  }
+}

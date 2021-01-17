@@ -1,0 +1,310 @@
+.signIn__container {
+  width: 92%;
+  height: 92%;
+  margin-left: 4%;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #353530;
+  margin-top: 2%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container {
+    height: 80%;
+    margin-top: 108px;
+  }
+}
+
+@media only screen and (min-device-width: 1450px) and (max-device-width: 3000px) {
+  .signIn__container {
+    height: 80%;
+  }
+}
+
+.signIn__container .signIn__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: -20px;
+}
+
+.signIn__container .signIn__content .signIn__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #353530;
+  padding: 0;
+  width: 70vw;
+  height: 100vw;
+  padding-top: 150px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .signIn__container .signIn__content .signIn__left {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 1450px) and (max-device-width: 3000px) {
+  .signIn__container .signIn__content .signIn__left {
+    height: 100%;
+  }
+}
+
+.signIn__container .signIn__content .signIn__left .signIn__img1 {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 39vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.signIn__container .signIn__content .signIn__left .signIn__img2 {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 39vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.signIn__container .signIn__content .signIn__left .signIn__logo {
+  margin-top: -50px;
+  padding-bottom: 20px;
+}
+
+.signIn__container .signIn__content .signIn__left .signIn__lefth3 {
+  width: auto;
+  font-size: 25px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.signIn__container .signIn__content .signIn__left .signIn__leftp {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.signIn__container .signIn__content .signIn__left .signIn__men {
+  width: 100%;
+  height: 50vh;
+}
+
+.signIn__container .signIn__content .signIn__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background: #fff;
+  position: relative;
+}
+
+.signIn__container .signIn__content .signIn__right .buttons {
+  max-width: 95%;
+  width: auto;
+  height: auto;
+  border: 2px solid #ad974f;
+  border-radius: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .buttons {
+    width: 90%;
+  }
+}
+
+.signIn__container .signIn__content .signIn__right .buttons .signIn__button {
+  width: 258.5px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  border: none;
+  border-radius: 100px;
+  background-color: #fff;
+  background: #ad974f;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .buttons .signIn__button {
+    width: 50%;
+  }
+}
+
+.signIn__container .signIn__content .signIn__right .buttons .signIn__button:active, .signIn__container .signIn__content .signIn__right .buttons .signIn__button:hover, .signIn__container .signIn__content .signIn__right .buttons .signIn__button:focus {
+  outline: none;
+}
+
+.signIn__container .signIn__content .signIn__right .buttons .signUp__button {
+  width: 258.5px;
+  height: 35px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  border: none;
+  border-radius: 100px;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .buttons .signUp__button {
+    width: 50%;
+  }
+}
+
+.signIn__container .signIn__content .signIn__right .buttons .signUp__button:active, .signIn__container .signIn__content .signIn__right .buttons .signUp__button:hover, .signIn__container .signIn__content .signIn__right .buttons .signUp__button:focus {
+  outline: none;
+}
+
+.signIn__container .signIn__content .signIn__right h3 {
+  width: auto;
+  font-size: 25px;
+  line-height: 34px;
+  color: #000000;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.signIn__container .signIn__content .signIn__right .signIn__middle {
+  width: 90%;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding-top: 30px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .signIn__middle {
+    width: 100%;
+    margin: 0;
+    padding-left: 5%;
+  }
+}
+
+.signIn__container .signIn__content .signIn__right .signIn__mobileInput {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border: 2px solid #000000;
+  border-radius: 100px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .signIn__mobileInput {
+    width: 90%;
+    height: 40px;
+  }
+}
+
+.signIn__container .signIn__content .signIn__right .signIn__mobileInput .signIn__mobileNumber {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #000000;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.signIn__container .signIn__content .signIn__right .signIn__mobileInput input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 528px;
+  height: 45px;
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .signIn__mobileInput input {
+    width: 90%;
+    height: 36px;
+  }
+}
+
+.signIn__container .signIn__content .signIn__right .signIn__mobileInput input:active, .signIn__container .signIn__content .signIn__right .signIn__mobileInput input:hover, .signIn__container .signIn__content .signIn__right .signIn__mobileInput input:focus {
+  outline: none;
+}
+
+.signIn__container .signIn__content .signIn__right .otp__button {
+  width: 50%;
+  height: 55px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  background: #ad974f;
+  border: none;
+  border-radius: 78.0769px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .signIn__container .signIn__content .signIn__right .otp__button {
+    width: 90%;
+    height: 40px;
+  }
+}
+/*# sourceMappingURL=SignIn.css.map */

@@ -1,0 +1,140 @@
+.coupens {
+  width: 100%;
+  background-color: #fff;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.coupens .coupens__header {
+  width: 100%;
+  font-family: Prata, Raleway;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .coupens .coupens__header {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.coupens .coupens__header2 {
+  width: 177px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.coupens .coupens__content {
+  position: relative;
+  width: 100%;
+  -webkit-box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+          box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+  height: 108px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  overflow: visible;
+  margin-bottom: 20px;
+}
+
+.coupens .coupens__content .coupens__leftCircle {
+  position: absolute;
+  left: -24.5px;
+  width: 49px;
+  height: 49px;
+  border-radius: 49px;
+  background: #fdfdfd;
+  z-index: 10;
+  -webkit-box-shadow: 1px 1px 18px -6px rgba(17, 17, 17, 0.4) inset;
+          box-shadow: 1px 1px 18px -6px rgba(17, 17, 17, 0.4) inset;
+}
+
+.coupens .coupens__content .coupens__leftGradiant {
+  position: absolute;
+  left: -28.5px;
+  width: 49px;
+  height: 49px;
+  border-radius: 49px;
+  background: white;
+  z-index: 100;
+}
+
+.coupens .coupens__content .coupens__rightCircle {
+  position: absolute;
+  right: -24.5px;
+  width: 49px;
+  height: 49px;
+  border-radius: 49px;
+  background: #fdfdfd;
+  z-index: 10;
+  -webkit-box-shadow: 1px 1px 18px -6px rgba(17, 17, 17, 0.4) inset;
+          box-shadow: 1px 1px 18px -6px rgba(17, 17, 17, 0.4) inset;
+}
+
+.coupens .coupens__content .coupens__rightGradiant {
+  position: absolute;
+  right: -28.5px;
+  width: 49px;
+  height: 49px;
+  border-radius: 49px;
+  background: white;
+  z-index: 100;
+}
+
+.coupens .coupens__content .coupens__left {
+  width: 70%;
+  padding: 10px 10%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6ec11b;
+  border-right: 2px dashed #c4c4c4;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .coupens .coupens__content .coupens__left {
+    font-size: 12px;
+    padding: 0;
+    padding-left: 11%;
+  }
+}
+
+.coupens .coupens__content .coupens__left span {
+  font-weight: normal;
+  color: #000000;
+}
+
+.coupens .coupens__content .coupens__right {
+  width: 30%;
+  padding: 10px 5%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .coupens .coupens__content .coupens__right {
+    font-size: 12px;
+    padding: 10px 3%;
+    max-width: 90px;
+  }
+}
+
+.coupens .coupens__expired .coupens__left {
+  color: #000;
+}
+/*# sourceMappingURL=MyCoupens.css.map */

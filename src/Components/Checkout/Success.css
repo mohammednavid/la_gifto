@@ -1,0 +1,338 @@
+.success {
+  width: 100%;
+  padding: 3% 10%;
+  background: #231f20;
+  margin-top: 108px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success {
+    padding: 3% 5%;
+  }
+}
+
+.success .success__container {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 3% 6%;
+  border-radius: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container {
+    padding: 3% 5%;
+  }
+}
+
+.success .success__container .success__icon {
+  text-align: center;
+}
+
+.success .success__container .success__icon .CheckCircleOutlineIcon {
+  width: 75px;
+  height: 75px;
+  color: #6ec11b;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__icon .CheckCircleOutlineIcon {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.success .success__container .success__msg {
+  width: auto;
+  height: 100px;
+  font-family: Modesty, Raleway;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+  padding-top: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__msg {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+.success .success__container .success__confirmation {
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  padding-top: 40px;
+}
+
+.success .success__container .success__email {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+  font-weight: 600;
+}
+
+.success .success__container .success__line {
+  border-top: 1.2px solid #7c7c7c;
+  margin: 25px 0px;
+}
+
+.success .success__container .success__title {
+  width: auto;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+
+.success .success__container .success__order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: 10px 0px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__order {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.success .success__container .success__order .success__details {
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  padding-right: 10px;
+}
+
+.success .success__container .success__order .success__details span {
+  font-weight: normal;
+}
+
+.success .success__container .success__order .success__details .success__paymentMethod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__order .success__details .success__paymentMethod {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.success .success__container .success__order .success__details .success__paymentMethod span {
+  font-weight: 600;
+}
+
+.success .success__container .success__order .success__details .success__paymentMethod .paymentMethod__cardLogo {
+  width: 20px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+.success .success__container .success__order .success__details .success__paymentMethod .paymentMethod__cardName {
+  width: auto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  margin-right: 5px;
+}
+
+.success .success__container .success__order .success__details .success__paymentMethod .paymentMethod__cardNum {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 14px;
+  color: #adadad;
+}
+
+.success .success__container .success__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__bottom {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.success .success__container .success__bottom .success__orderSummary {
+  width: 100%;
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__title {
+  width: auto;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+  padding-bottom: 30px;
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails .orderSummary__img {
+  width: 125px;
+  height: 125px;
+  margin-right: 20px;
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails .orderSummary__details {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails .orderSummary__details .orderSummary__detailsTitle {
+  width: auto;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #090909;
+  padding-bottom: 15px;
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails .orderSummary__details .orderSummary__detailsPrice {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.success .success__container .success__bottom .success__orderSummary .orderSummary__fullDetails .orderSummary__details .orderSummary__detailsQuantity {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 130%;
+  color: #090909;
+}
+
+.success .success__container .success__bottom .success__orderRatings {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__bottom .success__orderRatings {
+    width: 100%;
+  }
+}
+
+.success .success__container .success__bottom .success__orderRatings .orderRatings__title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 175.9%;
+  color: #000000;
+}
+
+.success .success__container .success__bottom .success__orderRatings .orderRatings__descp {
+  width: 100%;
+  font-size: 15px;
+  line-height: 175.9%;
+  color: #000000;
+}
+
+.success .success__container .success__bottom .success__orderRatings .orderRatings__button {
+  width: 215.61px;
+  height: 50.14px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .success .success__container .success__bottom .success__orderRatings .orderRatings__button {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+/*# sourceMappingURL=Success.css.map */

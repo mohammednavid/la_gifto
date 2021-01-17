@@ -1,0 +1,64 @@
+.pet {
+    position: relative;
+    width: 290px;
+    height: 270px;
+    top: 0;
+  border: none;
+  margin: 10px;
+      z-index: 1;
+    .pet__img {
+      position: absolute;
+      width: 290px;
+      height: 270px;
+      top:  0;
+    }
+    .pet__title {
+      position: absolute;
+      width: 290px;
+      height: 50px;
+      left: 0;
+      top: 70%;
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      color: #000000;
+      background: #FFFFFF;
+opacity: 0.6;
+      text-decoration: none;
+      z-index: 10;
+      padding-top: 12px;
+    }
+}
+@media(max-width:420px){
+  .pet{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media(max-width:420px){
+        .concepts{
+          padding-bottom: 30px;
+          h2{
+            width: 120px;
+          top: 50px;
+          left: 4%;
+          font-size: 35px;
+          line-height: 100%;
+          }
+          .conceptImg{
+            width: 55.7px;
+height: 40.12px;
+left:10%;
+top: 22px;
+          }
+          p{
+            width: 68px;
+          height: 21px;
+          left: 72%;
+          top: 59px;
+          font-size: 18px;
+          line-height: 21px;
+          z-index: 10;
+          }
+        }
+      }

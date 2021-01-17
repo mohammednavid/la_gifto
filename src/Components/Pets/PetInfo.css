@@ -1,0 +1,901 @@
+.petinfo__containor {
+  width: 100%;
+  background-color: #231f20;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor {
+    padding: 3%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor {
+    padding: 5%;
+  }
+}
+
+.petinfo__containor .petinfo {
+  margin-top: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.petinfo__containor .petinfo .petinfo__gallery {
+  position: relative;
+  width: 50%;
+  height: 764px;
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor .petinfo .petinfo__gallery {
+    height: 550px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery {
+    width: 100%;
+    height: 80vw;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__hero {
+    position: relative;
+    width: 100vw;
+    height: 80vw;
+    top: 0;
+  }
+}
+
+.petinfo__containor .petinfo .petinfo__gallery .petinfo__hero img {
+  position: absolute;
+  width: 500px;
+  height: 567px;
+  left: 10px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__hero img {
+    width: 40vw;
+    height: 55vh;
+    left: 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__hero img {
+    width: 70vw;
+    height: 80vw;
+    -o-object-fit: contain;
+       object-fit: contain;
+    top: 0;
+    left: 10vw;
+  }
+}
+
+.petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs {
+  position: absolute;
+  width: 559px;
+  height: 201px;
+  left: 10px;
+  top: 590px;
+  z-index: 10;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs {
+    width: 40vw;
+    height: 150px;
+    left: 0;
+    top: 58vh;
+  }
+}
+
+@media only screen and (min-device-width: 376px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs {
+    position: absolute;
+    width: 100%;
+    left: 8px;
+    top: 52vh;
+  }
+}
+
+@media only screen and (min-device-width: 321px) and (max-device-width: 375px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs {
+    position: absolute;
+    width: 100%;
+    left: 8px;
+    top: 50vh;
+  }
+}
+
+@media only screen and (min-device-width: 310px) and (max-device-width: 320px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs {
+    position: absolute;
+    width: 100%;
+    left: 6px;
+    top: 48vh;
+  }
+}
+
+.petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs .petinfo__imgs_1 {
+  width: 173.4px;
+  height: 180px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs .petinfo__imgs_1 {
+    width: 14vw;
+    left: 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs .petinfo__imgs_1 {
+    width: 30vw;
+    height: 110px;
+  }
+}
+
+.petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs .petinfo__imgs_2 {
+  width: 173.4px;
+  height: 180px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs .petinfo__imgs_2 {
+    width: 14vw;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs .petinfo__imgs_2 {
+    width: 30vw;
+    height: 110px;
+  }
+}
+
+.petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs_3 {
+  width: 153.4px;
+  height: 180px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs_3 {
+    width: 12vw;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__containor .petinfo .petinfo__gallery .petinfo__imgs_3 {
+    width: 26vw;
+    height: 110px;
+  }
+}
+
+.petinfo__about {
+  position: relative;
+  width: 50%;
+  height: auto;
+  padding-right: 50px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__about {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__about {
+    width: 100%;
+    padding: 0;
+    padding-top: 180px;
+  }
+}
+
+.petinfo__about .petinfo__aboutTitle {
+  width: 338px;
+  height: 86px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .petinfo__about .petinfo__aboutTitle {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+
+.petinfo__about .petinfo__aboutRatings {
+  width: 338px;
+  line-height: 40px;
+  font-size: 55px;
+  color: #ad974f;
+  padding-top: 20px;
+}
+
+.petinfo__about .petinfo__aboutDescTitle {
+  width: 450px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .petinfo__about .petinfo__aboutDescTitle {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+
+.petinfo__about .petinfo__aboutDescription {
+  width: 100%;
+  height: auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.petinfo__about .petinfo__buttons {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.petinfo__about .petinfo__buttons .petinfo__aboutBook {
+  width: 260px;
+  height: 70px;
+  background: #ad974f;
+  border-radius: 100px;
+  border: none;
+  margin-top: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__about .petinfo__buttons .petinfo__aboutBook {
+    width: 65%;
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
+.petinfo__about .petinfo__buttons .petinfo__aboutBook a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.petinfo__about .petinfo__buttons .petinfo__aboutConsult {
+  width: 260px;
+  height: 70px;
+  border: 2px solid #ad974f;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  background: #000;
+  margin-top: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__about .petinfo__buttons .petinfo__aboutConsult {
+    width: 65%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+  }
+}
+
+.petinfo__about .petinfo__buttons .petinfo__aboutConsult a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ad974f;
+}
+
+.petinfo__fullDescription {
+  width: 100%;
+  height: auto;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 25px;
+  color: #ffffff;
+  padding: 50px;
+  padding-left: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__fullDescription {
+    width: 100%;
+    padding: 0;
+    font-size: 18px;
+  }
+}
+
+.petinfo__giftRecommend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.petinfo__giftRecommend::-webkit-scrollbar {
+  height: 50px;
+  width: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend {
+    margin-top: 50px;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 {
+  width: 350px;
+  min-width: 350px;
+  height: 342px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: relative;
+  margin-right: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 {
+    width: 65vw;
+    min-width: 65vw;
+    height: 55vh;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 img {
+  position: absolute;
+  width: 350px;
+  height: 342px;
+  left: 0px;
+  top: 0px;
+  bottom: 0;
+  border: 10px solid #ffffff;
+  border-radius: 6px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 img {
+    width: 65vw;
+    height: 55vh;
+    border: 6px solid white;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails {
+  position: absolute;
+  width: 318px;
+  height: 100px;
+  left: 15px;
+  bottom: 20px;
+  background: #ffffff;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails {
+    width: 58vw;
+    height: 70px;
+    left: 10px;
+    bottom: 15px;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftTitle {
+  padding: 5px;
+  font-size: 19px;
+  font-weight: 600;
+  width: 210px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftTitle {
+    font-size: 16px;
+    font-weight: 600;
+    width: 56.45vw;
+    padding-bottom: 0;
+    text-align: center;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftDescription {
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftDescription {
+    font-size: 15px;
+    text-align: center;
+    list-style: 15px;
+    width: 56.45vw;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftPrice {
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+  width: 100px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftPrice {
+    font-size: 16px;
+    font-weight: 600;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftRatings {
+  padding-left: 10px;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__giftRecommend .petinfo__gift_1 .petinfo__giftDetails .petinfo__giftRatings {
+    position: absolute;
+    font-size: 46px;
+    font-weight: 600;
+    left: 5px;
+    top: 32px;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.petinfo__customQnA {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__customQnA {
+    padding-top: 0;
+    overflow: visible;
+  }
+}
+
+.petinfo__customQnA h3 {
+  width: 366px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__customQnA h3 {
+    width: 100%;
+    height: 29px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 29px;
+    z-index: 10;
+  }
+}
+
+.petinfo__customQnA input {
+  width: 50%;
+  border-radius: 10px;
+  padding: 20px 100px 100px 10px;
+  font-size: 22px;
+  height: 29px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 29px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 888px) {
+  .petinfo__customQnA input {
+    font-size: 18px;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__customQnA input {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    font-size: 14.5px;
+    text-align: center;
+    z-index: 10;
+  }
+}
+
+.petinfo__customQnA button {
+  position: absolute;
+  width: 203px;
+  height: 54.65px;
+  left: 33%;
+  bottom: 20px;
+  background: #ad974f;
+  border: none;
+  border-radius: 78.0769px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__customQnA button {
+    width: 65%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+    left: 15vw;
+    text-align: center;
+  }
+}
+
+.petinfo__customQnA button a {
+  font-weight: 600;
+  font-size: 15.6154px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.petinfo__customQnA img {
+  position: absolute;
+  right: 0;
+  width: 136px;
+  height: 88px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__customQnA img {
+    right: -5%;
+    top: -5%;
+    width: 100px;
+    height: 68px;
+    z-index: 1;
+  }
+}
+
+.petinfo__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.petinfo__bottom .petinfo__faq {
+  width: 50vw;
+  padding-top: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .petinfo__bottom .petinfo__faq {
+    width: 100%;
+    padding: 0;
+    overflow: visible;
+  }
+}
+
+.petinfo__bottom .petinfo__faq .petinfo__qna {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.petinfo__bottom .petinfo__faq .petinfo__qna .petinfo__qna_q {
+  width: auto;
+  height: 54px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 27px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__faq .petinfo__qna .petinfo__qna_q {
+    height: 60px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+}
+
+.petinfo__bottom .petinfo__faq .petinfo__qna .petinfo__qna_q span {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.petinfo__bottom .petinfo__faq .petinfo__qna .petinfo__qna_a {
+  width: auto;
+  height: 54px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__faq .petinfo__qna .petinfo__qna_a {
+    height: 50px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+}
+
+.petinfo__bottom .petinfo__faq .petinfo__qna .petinfo__qna_a span {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.petinfo__bottom .petinfo__faq .petinfo__qna div {
+  width: auto;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.petinfo__bottom .petinfo__productRecommend {
+  padding-left: 100px;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend::-webkit-scrollbar {
+  height: 50px;
+  width: auto;
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 {
+  position: relative;
+  width: 252px;
+  min-width: 252px;
+  height: 504px;
+  border: none;
+  background: #ffffff;
+  border-radius: 6px;
+  margin: 10px;
+  z-index: 10;
+  border: 15px solid white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 {
+    margin: 5px;
+    height: 380px;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 img {
+  position: absolute;
+  width: 222px;
+  height: 210px;
+  top: 0;
+  border-radius: 6px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 img {
+    height: 160px;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productTitle {
+  position: absolute;
+  width: 220px;
+  height: 50px;
+  left: 0px;
+  top: 230px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productTitle {
+    top: 170px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productRatings {
+  position: absolute;
+  width: 13.43px;
+  height: 13.43px;
+  left: 0px;
+  top: 308px;
+  font-size: 55px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productRatings {
+    top: 217px;
+    font-size: 50px;
+    padding: 5px;
+    padding-left: 0;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productSpecialPrice {
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productSpecialPrice {
+    bottom: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productOriginalPrice {
+  position: absolute;
+  width: 42px;
+  height: 24px;
+  left: 0px;
+  bottom: 72px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.9%;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #afafaf;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productOriginalPrice {
+    bottom: 27px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productAfterDiscount {
+  position: absolute;
+  width: 56px;
+  height: 31px;
+  left: 50px;
+  bottom: 68px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productAfterDiscount {
+    bottom: 27px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productDiscount {
+  position: absolute;
+  right: 0;
+  bottom: 78px;
+  display: inline;
+  background: lightgray;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productDiscount {
+    bottom: 63px;
+    font-size: 18px;
+    padding: 5px;
+  }
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productAddButton {
+  position: absolute;
+  width: 146px;
+  height: 40px;
+  left: 40px;
+  bottom: 0;
+  background: #ad974f;
+  border-radius: 78.0769px;
+  border: none;
+  z-index: 1;
+}
+
+.petinfo__bottom .petinfo__productRecommend .petinfo__product_1 .petinfo__productAddButton a {
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.6154px;
+  line-height: 18px;
+  color: #000000;
+}
+/*# sourceMappingURL=PetInfo.css.map */

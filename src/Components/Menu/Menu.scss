@@ -1,0 +1,100 @@
+.menu {
+  width: 100%;
+  height: 70px;
+  padding: 20px 8%;
+  background: #231f20;
+  margin-top: 108px;
+  margin-bottom: -108px;
+  position: sticky;
+  overflow: visible;
+  z-index: 10;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    display: none;
+  }
+  .menu__content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .menu__primary {
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        position: relative;
+        z-index: 10;
+        padding-bottom: 20px;
+      }
+      &:hover .menu__secondary {
+        display: block;
+      }
+      .menu__secondary {
+        display: none;
+        position: absolute;
+        left: -0.7%;
+        width: 81%;
+        background: rgba(0, 0, 0, 0);
+        margin-left: 10%;
+        margin-right: 10%;
+        .menu__secondaryHeader {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          background-color: #fff;
+          box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+          li {
+            padding: 35px 0px;
+            width: 160px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #0f0f0f;
+          }
+        }
+        .menu__secondaryContent {
+          width: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          background-color: #fff;
+          .menu__secondaryColumn {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            margin-top: 100px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            li {
+              width: 160px;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 130.9%;
+              color: #000000;
+              display: flex;
+              align-items: center;
+              padding: 15px 0px;
+              img {
+                width: 24px;
+                height: 24px;
+                border-radius: 24px;
+                object-fit: contain;
+                border: 1px solid rgba(0, 0, 0, 0.18);
+                margin-right: 10px;
+              }
+            }
+            .viewAll {
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 130.9%;
+              text-decoration-line: underline;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}

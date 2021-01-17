@@ -1,0 +1,195 @@
+div .giftAd {
+  position: relative;
+  overflow: hidden;
+}
+
+div .giftAd .giftAdImg {
+  position: relative;
+  width: 100%;
+  top: 0;
+  max-height: 223px;
+  min-height: 145px;
+  border: none;
+  z-index: 10;
+}
+
+div .giftAd h2 {
+  position: absolute;
+  width: 480px;
+  height: 90px;
+  left: 16%;
+  top: 3vh;
+  z-index: 10;
+  font-family: Marcellus, Malvie, Raleway;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 35px;
+  color: #000000;
+}
+
+div .giftAd h2 span {
+  font-family: Malvie, Marcellus, Raleway;
+  font-weight: 900;
+  font-style: italic;
+}
+
+div .giftAd button {
+  position: absolute;
+  width: 150px;
+  height: 42px;
+  left: 41%;
+  bottom: 3vh;
+  z-index: 10;
+  background: #ad974f;
+  border-radius: 78.0769px;
+  border: none;
+}
+
+div .giftAd button a {
+  text-decoration: none;
+  color: #000000;
+  width: 65px;
+  height: 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+div .homePets {
+  position: relative;
+  width: 100%;
+  background: #231f20;
+  min-height: 560px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div .homePets .homePetsHeader {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16%;
+  padding-right: 16%;
+}
+
+div .homePets .homePetsHeader h2 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 81px;
+  font-family: Prata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 81px;
+  color: #ffffff;
+}
+
+div .homePets .homePetsHeader .homePetImg {
+  width: 75.7px;
+  height: 60.12px;
+  -webkit-transform: rotate(13.65deg);
+          transform: rotate(13.65deg);
+  margin-left: 10px;
+}
+
+div .homePets .homePetsHeader .homePetsLink {
+  text-align: right;
+  height: 21px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div .homePets .homePetsHeader .homePetsLink p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+}
+
+div .homePets .homePetsCard {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div .giftAd .giftAdImg {
+    width: 100%;
+    top: 0;
+    max-height: 120px;
+  }
+  div .giftAd h2 {
+    width: 62%;
+    height: 30px;
+    left: 7%;
+    top: 5vh;
+    font-size: 20px;
+  }
+  div .giftAd button {
+    width: 27%;
+    height: 30px;
+    left: 23%;
+    bottom: 5vh;
+  }
+  div .giftAd button a {
+    width: 65px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  div .homePets {
+    padding-top: 180px;
+  }
+  div .homePets .homePetsHeader {
+    padding: 0 5%;
+  }
+  div .homePets .homePetsHeader h2 {
+    font-size: 35px;
+  }
+  div .homePets .homePetsHeader .homePetImg {
+    position: absolute;
+    width: 55.7px;
+    height: 40.12px;
+    left: 10%;
+    top: -8px;
+  }
+  div .homePets .homePetsHeader .homePetsLink {
+    text-align: right;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    width: 68px;
+  }
+  div .homePets .homePetsHeader .homePetsLink p {
+    width: 68px;
+    left: 72%;
+    top: 59px;
+    font-size: 18px;
+    line-height: 21px;
+    z-index: 10;
+  }
+}
+/*# sourceMappingURL=HomePets.css.map */

@@ -1,0 +1,186 @@
+.profile__container {
+  width: 100%;
+  background: #231f20;
+  padding: 3% 15%;
+  margin-top: 108px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container {
+    padding: 5%;
+  }
+}
+
+.profile__container .profile__header1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header1 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 10px;
+  }
+}
+
+.profile__container .profile__header1 .profile__header1Avatar {
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 60px;
+  margin: 10px;
+  margin-left: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header1 .profile__header1Avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 5px;
+  }
+}
+
+.profile__container .profile__header1 .profile__header1UserName {
+  width: 156px;
+  height: 52px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header1 .profile__header1UserName {
+    margin: 5px;
+  }
+}
+
+.profile__container .profile__header1 .profile__header1UserName span {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header1 .profile__header1UserName span {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+.profile__container .profile__header1 .profile__header1Button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header1 .profile__header1Button {
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+  }
+}
+
+.profile__container .profile__header1 .profile__header1Button button {
+  width: 203px;
+  height: 54.65px;
+  font-weight: 600;
+  font-size: 15.6154px;
+  line-height: 18px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 78.0769px;
+  border: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header1 .profile__header1Button button {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+.profile__container .profile__header2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  padding: 0 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header2 {
+    padding: 0 5px;
+    padding-bottom: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.profile__container .profile__header2 .profile__header2Tabs {
+  display: inline;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 138.9%;
+  text-align: center;
+  width: auto;
+  padding-bottom: 20px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .profile__container .profile__header2 .profile__header2Tabs {
+    font-size: 13px;
+    line-height: 14px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 0 5px;
+    padding-bottom: 10px;
+  }
+}
+
+.profile__container .profile__header2 .profile__headerUnderLine {
+  position: absolute;
+  bottom: 0px;
+  width: 98%;
+  border-bottom: 5px solid #ad974f;
+}
+/*# sourceMappingURL=Profile.css.map */

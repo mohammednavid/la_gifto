@@ -1,0 +1,190 @@
+.checkoutPayment {
+  width: 100%;
+  background-color: #231f20;
+  overflow: hidden;
+  padding: 3% 10%;
+  padding-top: 0;
+  margin-top: 108px;
+  display: flex;
+  @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  padding: 3% 5%;
+  flex-wrap: wrap;
+  }
+  .checkoutPayment__left {
+    min-width: 65%;
+    margin-right: 20px;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+    margin: 0;
+    }
+    .checkoutPayment__header {
+      padding: 25px 0px;
+      width: auto;
+      font-family: Prata, Raleway;
+      font-size: 25px;
+      line-height: 35px;
+      color: #ffffff;
+    }
+    .checkoutPayment__orderContainer {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 10px;
+      display: flex;
+      @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+      flex-wrap: wrap;
+      }
+      .checkoutPayment__order {
+        padding: 4%;
+        width: 100%;
+        .order__header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 15px;
+       
+          .order__headerLeft {
+            width: auto;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000000;
+          }
+          .order__headerRight {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 138.9%;
+            text-decoration-line: underline;
+            color: #ad974f;
+          }
+        }
+        .order__description {
+          width: 100%;
+          font-size: 18px;
+          line-height: 130%;
+          color: #090909;
+        }
+      }
+    }
+    .checkoutPayment__savedCards {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 10px;
+      .savedCards__header {
+        width: 100%;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+        box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+        padding: 2% 4%;
+      }
+      .savedCards__container {
+        padding: 2% 4%;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+          padding: 2%;
+          }
+        .savedCards__cardSaved {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 1.5% 0px;
+            @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+              justify-content: space-evenly;
+              flex-wrap: wrap;
+              }
+          .savedCards__cardLogo {
+            width: 20px;
+            height: 20px;
+          }
+          .savedCards__cardName {
+            width: auto;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            color: #000000;
+            margin-left: -20px;
+            @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+              margin: 0;
+              }
+          }
+          .savedCards__cardNum {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 14px;
+            color: #adadad;
+          }
+          .savedCards__cardCVV {
+            width: 93px;
+            height: 36px;
+            border: 1px solid #adadad;
+            box-sizing: border-box;
+            text-align: center;
+            &::placeholder {
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 18px;
+              color: #adadad;
+            }
+          }
+          .savedCards__cardButton {
+            width: 175px;
+            height: 50px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 23px;
+            color: #000000;
+            background: #ad974f;
+            border: none;
+            border-radius: 100px;
+            outline: none;
+            cursor: pointer;
+            @media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+              width: 120px;
+              height: 45px;
+              }
+          }
+        }
+      }
+    }
+    .checkoutPayment__otherPayment {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+    .otherPayment__header {
+      width: 100%;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+      box-shadow: 1px 1px 10px -3px rgba(17, 17, 17, 0.4);
+      padding: 2% 4%;
+    }
+    .checkoutPayment__optionsContainer {
+      padding: 2% 4%;
+      .otherPayment__option {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 1.5% 0px;
+        .otherPayment__optionCheck {
+          margin-right: 6%;
+        }
+        .otherPayment__optionName {
+          width: auto;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 18px;
+          color: #000000;
+        }
+      }
+    }
+  }
+  .checkoutPayment__right{
+min-width: 73.5%;
+margin-top: 65px;
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  margin-top: 20px;
+  min-width: 117.5%;
+  }
+  }
+}

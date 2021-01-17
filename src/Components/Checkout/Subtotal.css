@@ -1,0 +1,126 @@
+.subtotal {
+  width: 45%;
+  position: relative;
+  margin-top: 20px;
+}
+
+@media only screen and (min-device-width: 310px) and (max-device-width: 480px) {
+  .subtotal {
+    width: 85%;
+    margin: 0;
+  }
+}
+
+.subtotal .subtotal__container {
+  width: 100%;
+  background-color: #fff;
+  padding: 5%;
+  border-radius: 6px;
+}
+
+.subtotal .subtotal__container .subtotal__header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  width: auto;
+  color: #000000;
+  padding-bottom: 3%;
+}
+
+.subtotal .subtotal__container .subtotal__coupenCode {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #ad974f;
+  border-radius: 100px;
+  margin-bottom: 7%;
+}
+
+.subtotal .subtotal__container .subtotal__coupenCode .subtotal__coupenInput {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: none;
+  outline: none;
+  padding-left: 5%;
+}
+
+.subtotal .subtotal__container .subtotal__coupenCode .subtotal__coupenButton {
+  position: absolute;
+  right: -10px;
+  width: 30%;
+  height: 100%;
+  background: #ad974f;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  padding: 10px 0px;
+  padding-right: 10px;
+  text-align: center;
+  color: #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.subtotal .subtotal__container h3 {
+  padding-bottom: 3%;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 29px;
+  width: auto;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.subtotal .subtotal__container .subtotal__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subtotal .subtotal__container .subtotal__content:nth-last-child(2) {
+  border-top: 2px dashed #dfdfdd;
+  border-bottom: 2px dashed #dfdfdd;
+}
+
+.subtotal .subtotal__container .subtotal__content:nth-last-child(2) p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.subtotal .subtotal__container .subtotal__footer {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #388e3c;
+  padding-top: 25px;
+}
+
+.subtotal .subtotal__button {
+  width: 60%;
+  height: 55px;
+  margin: 20px;
+  margin-left: 20%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  border: none;
+  background: #ad974f;
+  border-radius: 78.0769px;
+}
+/*# sourceMappingURL=Subtotal.css.map */

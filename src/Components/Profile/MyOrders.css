@@ -1,0 +1,283 @@
+.myOrders {
+  width: 100%;
+  background-color: #fff;
+  padding: 4%;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+.myOrders .myOrders__title {
+  width: 100%;
+  font-family: Prata;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+.myOrders .myOrders__card {
+  width: 100%;
+  border: 2px solid #dfdfdf;
+  border-radius: 10px;
+  margin-top: 35px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card {
+    margin-top: 25px;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardHeader {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dfdfdf;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardHeader {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardDate {
+  padding: 15px 50px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardDate {
+    font-size: 13px;
+    padding: 5px 10px;
+    width: auto;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardDate span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardDate span {
+    font-size: 15px;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardPrice {
+  padding: 15px 70px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardPrice {
+    font-size: 13px;
+    padding: 5px 10px;
+    width: auto;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardPrice span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardPrice span {
+    font-size: 15px;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardOrderNumber {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardHeader .myOrders__cardOrderNumber {
+    font-size: 15px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0;
+            flex: 0;
+    padding: 5px 10px;
+    width: auto;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 3%;
+  position: relative;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent .myOrders__cardImg {
+  width: 222.3px;
+  height: 243.58px;
+  border-radius: 5px;
+  margin-right: 3%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent .myOrders__cardImg {
+    width: 200px;
+    height: 220px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-right: 0;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent .myOrders__cardStatus {
+  position: absolute;
+  top: 9%;
+  left: 31.7%;
+  width: 89px;
+  height: 33px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  background: #353530;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent .myOrders__cardStatus {
+    top: 3.6%;
+    left: 0;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent .myOrders__cardDetails {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 40px;
+  font-size: 18px;
+  line-height: 140%;
+  color: #090909;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent .myOrders__cardDetails {
+    font-size: 16px;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent .myOrders__cardButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent .myOrders__cardButtons {
+    margin-top: 30px;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent .myOrders__cardButtons .myOrders__cardTrack {
+  width: 200px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 100px;
+  border: none;
+  margin: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent .myOrders__cardButtons .myOrders__cardTrack {
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    margin: 5px;
+  }
+}
+
+.myOrders .myOrders__card .myOrders__cardContent .myOrders__cardButtons .myOrders__cardCancel {
+  width: 200px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  background-color: #fff;
+  border: 2px solid #ad974f;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .myOrders .myOrders__card .myOrders__cardContent .myOrders__cardButtons .myOrders__cardCancel {
+    width: 150px;
+    height: 45px;
+    font-size: 16px;
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=MyOrders.css.map */

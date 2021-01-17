@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  font-family: Raleway !important, sans-serif, "Times New Roman", Times, serif;
+}
+
+div {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+  overflow: hidden;
+}
+
+div .products {
+  position: relative;
+  width: 100%;
+  background: #353530;
+  min-height: 693px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+div .products .productsHeader {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16%;
+  padding-right: 16%;
+}
+
+div .products .productsHeader h2 {
+  width: auto;
+  height: 98px;
+  top: 30px;
+  left: 218px;
+  font-family: Nuchelle, Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+div .products .productsHeader p {
+  text-align: right;
+  height: 21px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+div .products .leftImg {
+  position: absolute;
+  width: 138.74px;
+  height: 159.12px;
+  left: 0;
+  bottom: -20px;
+}
+
+div .products .rightImg {
+  position: absolute;
+  width: 141.75px;
+  height: 104px;
+  right: 0;
+  top: 100px;
+}
+
+div .products .productsCard {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div .products .productsCard .product {
+  position: relative;
+  width: 290px;
+  height: 445px;
+  border: none;
+  background: #ffffff;
+  margin: 10px;
+  z-index: 10;
+}
+
+@media (max-width: 480px) {
+  div .products .productsCard .product {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+div .products .productsCard .product .product__img {
+  position: absolute;
+  width: 290px;
+  height: 250px;
+  top: 0;
+  border: 20px solid white;
+}
+
+div .products .productsCard .product .product__title {
+  position: absolute;
+  width: 220px;
+  height: 50px;
+  left: 25px;
+  top: 270px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+div .products .productsCard .product .product__ratings {
+  position: absolute;
+  width: 13.43px;
+  height: 13.43px;
+  left: 25px;
+  top: 310px;
+  color: #000000;
+}
+
+div .products .productsCard .product .product__originalPrice {
+  position: absolute;
+  width: 42px;
+  height: 24px;
+  left: 25px;
+  top: 340px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130.9%;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #afafaf;
+}
+
+div .products .productsCard .product .product__afterDiscount {
+  position: absolute;
+  width: 56px;
+  height: 31px;
+  left: 75px;
+  top: 335px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+div .products .productsCard .product .product__discount {
+  position: absolute;
+  width: 91.5px;
+  height: 36px;
+  left: 170px;
+  top: 335px;
+  display: inline;
+  background: lightgray;
+  text-align: center;
+  padding-top: 3px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+div .products .productsCard .product .product__addButton {
+  position: absolute;
+  width: 146px;
+  height: 40px;
+  left: 65px;
+  top: 395px;
+  background: #ad974f;
+  border-radius: 78.0769px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+div .products .productsCard .product .product__addButton a {
+  text-decoration: none !important;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.6154px;
+  line-height: 18px;
+  color: #000000;
+}
+
+div .productGift {
+  background: #353530;
+  position: relative;
+}
+
+div .productGift img {
+  position: relative;
+  width: 100%;
+  max-height: 223px;
+  min-height: 145px;
+  border: none;
+  z-index: 1;
+}
+
+div .productGift h2 {
+  position: absolute;
+  width: 480px;
+  height: 90px;
+  left: 16%;
+  top: 6%;
+  z-index: 10;
+  font-family: Marcellus, Malvie, Raleway;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 35px;
+  color: #000000;
+}
+
+div .productGift h2 span {
+  font-family: Malvie, Marcellus, Raleway;
+  font-weight: 900;
+  font-style: italic;
+}
+
+div .productGift button {
+  position: absolute;
+  width: 150px;
+  height: 42px;
+  left: 16%;
+  bottom: 5vh;
+  z-index: 10;
+  background: #111111;
+  border-radius: 78.0769px;
+  border: none;
+}
+
+div .productGift button a {
+  text-decoration: none;
+  color: white;
+  width: 65px;
+  height: 18px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  div .products {
+    padding-bottom: 100px;
+  }
+  div .products .productsHeader {
+    padding: 0 4%;
+  }
+  div .products .productsHeader h2 {
+    font-size: 37px;
+    line-height: 260%;
+    z-index: 10;
+  }
+  div .products .productsHeader p {
+    width: 68px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 21px;
+    z-index: 10;
+  }
+  div .products .rightImg {
+    top: 40px;
+  }
+  div .productGift img {
+    width: 100%;
+    top: 0;
+    max-height: 120px;
+  }
+  div .productGift h2 {
+    width: 62%;
+    height: 30px;
+    left: 5%;
+    top: 5vh;
+    font-size: 20px;
+  }
+  div .productGift button {
+    width: 28%;
+    height: 35px;
+    left: 18%;
+    bottom: 4vh;
+  }
+  div .productGift button a {
+    width: 65px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+/*# sourceMappingURL=Products.css.map */

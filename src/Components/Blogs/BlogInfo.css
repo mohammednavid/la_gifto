@@ -1,0 +1,294 @@
+.blogInfo {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #231f20;
+  overflow: hidden;
+  margin-top: 108px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blogInfo .blogInfo__ad {
+  width: 100%;
+  height: 233px;
+  position: relative;
+  background: #cbdeb4;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__ad {
+    height: 120px;
+  }
+}
+
+.blogInfo .blogInfo__ad .blogInfo__adImg {
+  position: absolute;
+  left: 70.49%;
+  right: 18.59%;
+  top: 0%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+  max-height: 232px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__ad .blogInfo__adImg {
+    height: 100%;
+    top: 0%;
+    left: 68%;
+  }
+}
+
+.blogInfo .blogInfo__ad .blogInfo__adText {
+  position: absolute;
+  width: 50%;
+  height: 106px;
+  left: 183px;
+  top: 5%;
+  font-family: Marcellus, Raleway;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000000;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__ad .blogInfo__adText {
+    width: 65%;
+    height: 50px;
+    left: 5%;
+    top: 10%;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+.blogInfo .blogInfo__ad .blogInfo__adButton {
+  position: absolute;
+  width: 230px;
+  height: 65px;
+  left: 609px;
+  bottom: 5%;
+  background: #231f20;
+  border-radius: 100px;
+  border: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__ad .blogInfo__adButton {
+    width: 37%;
+    height: 35px;
+    left: 5%;
+    bottom: 5%;
+  }
+}
+
+.blogInfo .blogInfo__ad .blogInfo__adButton a {
+  text-decoration: none;
+  width: 121px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__ad .blogInfo__adButton a {
+    width: 65px;
+    height: 18px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+
+.blogInfo .blogInfo__content {
+  width: 100%;
+  padding: 5% 15%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__content {
+    padding: 3% 5%;
+  }
+}
+
+.blogInfo .blogInfo__content .blogInfo__title {
+  width: 55%;
+  height: 80px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogInfo__content .blogInfo__title {
+    width: 100%;
+  }
+}
+
+.blogInfo .blogInfo__content .blogInfo__date {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.blogInfo .blogInfo__content .blogInfo__paragraph {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.blogInfo .blogInfo__content .blogInfo__share {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.blogInfo .blogPage__header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogPage__header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.blogInfo .blogPage__header h2 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 81px;
+  font-family: Prata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 81px;
+  color: #ffffff;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogPage__header h2 {
+    font-size: 35px;
+    line-height: 35px;
+    padding-top: 25px;
+  }
+}
+
+.blogInfo .blogPage__header .blogPage__Img {
+  width: 75.7px;
+  height: 60.12px;
+  -webkit-transform: rotate(13.65deg);
+          transform: rotate(13.65deg);
+  margin-left: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogPage__header .blogPage__Img {
+    position: absolute;
+    width: 55.7px;
+    height: 40.12px;
+    left: 10%;
+    top: 38px;
+  }
+}
+
+.blogInfo .popularBlogs__header {
+  background: #353530;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.blogInfo .blogPage__trendingBlogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .blogInfo .blogPage__trendingBlogs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.blogInfo .blogPage__trendingBlogs .trendingBlogs {
+  position: relative;
+  width: 290px;
+  height: 445px;
+  border: none;
+  background: white;
+  margin: 10px;
+  z-index: 10;
+}
+
+.blogInfo .blogPage__trendingBlogs .trendingBlogs .trendingBlogs__img {
+  position: absolute;
+  width: 290px;
+  height: 270px;
+  top: 0;
+}
+
+.blogInfo .blogPage__trendingBlogs .trendingBlogs .trendingBlogs__description {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+  left: 20px;
+  top: 290px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 130.9%;
+  color: #000000;
+}
+
+.blogInfo .blogPage__trendingBlogs .trendingBlogs .trendingBlogs__knowMore {
+  position: absolute;
+  width: 134px;
+  height: 30px;
+  left: 20px;
+  top: 395px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+/*# sourceMappingURL=BlogInfo.css.map */

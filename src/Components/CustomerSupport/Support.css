@@ -1,0 +1,323 @@
+.support {
+  width: 100%;
+  background: #231f20;
+  margin-top: 108px;
+}
+
+.support .supportCentre {
+  width: 100%;
+  padding: 3% 16%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre {
+    padding: 5%;
+  }
+}
+
+.support .supportCentre .supportCentre__title {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+
+.support .supportCentre .supportCentre__title2 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.support .supportCentre .supportCentre__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #ffffff;
+  padding: 10px 5%;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #ad974f;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre .supportCentre__header {
+    padding: 10px 0px;
+  }
+}
+
+.support .supportCentre .supportCentre__inputAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre .supportCentre__inputAndName {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__input {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 100px;
+  margin: 15px 5px;
+  border: 2px solid #ffffff;
+  overflow: visible;
+  background-color: transparent;
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__input .supportCentre__inputName {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #ffffff;
+  background-color: #231f20;
+  z-index: 10;
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__input input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre .supportCentre__inputAndName .supportCentre__input input {
+    width: 90%;
+    height: 36px;
+  }
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__input input:active, .support .supportCentre .supportCentre__inputAndName .supportCentre__input input:hover, .support .supportCentre .supportCentre__inputAndName .supportCentre__input input:focus {
+  outline: none;
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__upload {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 22.5px 0;
+  margin: 15px 5px;
+  padding-right: 0;
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__upload .supportCentre__inputFile {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.support .supportCentre .supportCentre__inputAndName .supportCentre__upload button {
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 78.0769px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.support .supportCentre .supportCentre__inputComments {
+  width: 98%;
+  height: 100px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 20px;
+  margin: 15px 5px;
+  border: 2px solid #ffffff;
+  overflow: visible;
+  position: relative;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre .supportCentre__inputComments {
+    width: 98%;
+    height: 50px;
+  }
+}
+
+.support .supportCentre .supportCentre__inputComments .supportCentre__rightImg {
+  position: absolute;
+  right: -26%;
+  top: 50%;
+  width: 150px;
+  height: 100px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre .supportCentre__inputComments .supportCentre__rightImg {
+    display: none;
+  }
+}
+
+.support .supportCentre .supportCentre__inputComments .supportCentre__inputDetails {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #fff;
+  background-color: #231f20;
+  z-index: 10;
+}
+
+.support .supportCentre .supportCentre__inputComments input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  padding-left: 2.5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .support .supportCentre .supportCentre__inputComments input {
+    width: 90%;
+    height: 36px;
+  }
+}
+
+.support .supportCentre .supportCentre__buttonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.support .supportCentre .supportCentre__buttonDiv .supportCentre__button {
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 78.0769px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.supportCentre__issue {
+  background: #353530;
+}
+
+.collapsible {
+  background-color: #231f20;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  padding-left: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #1f1b1c;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  color: #fff;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  background-color: #231f20;
+  opacity: 0.8;
+}
+
+.supportCentre__leftImg {
+  position: absolute;
+  top: 240%;
+  left: -0%;
+  width: 150px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .supportCentre__leftImg {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Support.css.map */

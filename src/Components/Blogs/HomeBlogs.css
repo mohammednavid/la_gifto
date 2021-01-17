@@ -1,0 +1,106 @@
+.homeBlogs {
+  position: relative;
+  width: 100%;
+  background: #353530;
+  min-height: 693px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.homeBlogs .homeBlogsHeader {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16%;
+  padding-right: 16%;
+}
+
+.homeBlogs .homeBlogsHeader h2 {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: 81px;
+  font-family: Prata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 81px;
+  color: #ffffff;
+}
+
+.homeBlogs .homeBlogsHeader .homeBlogImg {
+  width: 75.7px;
+  height: 60.12px;
+  -webkit-transform: rotate(13.65deg);
+          transform: rotate(13.65deg);
+  margin-left: 10px;
+}
+
+.homeBlogs .homeBlogsHeader p {
+  text-align: right;
+  height: 21px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #ffffff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.homeBlogs .homeBlogsCard {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .homeBlogs {
+    padding-bottom: 50px;
+  }
+  .homeBlogs .homeBlogsHeader {
+    padding: 0 5%;
+  }
+  .homeBlogs .homeBlogsHeader h2 {
+    font-size: 35px;
+  }
+  .homeBlogs .homeBlogsHeader .homeBlogImg {
+    position: absolute;
+    width: 55.7px;
+    height: 40.12px;
+    left: 10%;
+    top: -8px;
+  }
+  .homeBlogs .homeBlogsHeader p {
+    width: 68px;
+    height: 21px;
+    left: 72%;
+    top: 59px;
+    font-size: 18px;
+    line-height: 21px;
+    z-index: 10;
+  }
+}
+/*# sourceMappingURL=HomeBlogs.css.map */

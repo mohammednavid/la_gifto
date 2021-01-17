@@ -1,0 +1,213 @@
+.bookingModal__container {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 488px) {
+  .bookingModal__container {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 108px;
+  }
+}
+
+.bookingModal__container .bookingModal__content {
+  padding: 4% 5%;
+  background-color: #ffffff;
+  overflow: visible;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__header {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  width: 100%;
+  color: #000000;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputAndName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .bookingModal__container .bookingModal__content .bookingModal__inputAndName {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 100px;
+  margin: 5px 5px;
+  border: 2px solid #000000;
+  overflow: visible;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input .bookingModal__inputName {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #000000;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  padding-left: 5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input input {
+    width: 90%;
+    height: 36px;
+  }
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input input:active, .bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input input:hover, .bookingModal__container .bookingModal__content .bookingModal__inputAndName .bookingModal__input input:focus {
+  outline: none;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputMsg {
+  width: 98%;
+  height: 100px;
+  position: relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 20px;
+  margin: 15px 5px;
+  border: 2px solid #000000;
+  overflow: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .bookingModal__container .bookingModal__content .bookingModal__inputMsg {
+    height: 50px;
+    border-radius: 100px;
+  }
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputMsg .bookingModal__inputDetails {
+  position: absolute;
+  width: auto;
+  height: 18px;
+  left: 40px;
+  top: -10px;
+  padding: 0px 5px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 138.9%;
+  color: #000000;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__inputMsg input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  padding-left: 2.5%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 888px) {
+  .bookingModal__container .bookingModal__content .bookingModal__inputMsg input {
+    width: 90%;
+    height: 36px;
+  }
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__dateAndTime {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__dateAndTime .bookingModal__selectDate,
+.bookingModal__container .bookingModal__content .bookingModal__dateAndTime .bookingModal__selectTime {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  border-radius: 100px;
+  color: #000000;
+  margin: 0px 5px;
+  border: 2px solid #000000;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__buttonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bookingModal__container .bookingModal__content .bookingModal__buttonDiv .bookingModal__button {
+  width: 215.61px;
+  height: 50.14px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  background: #ad974f;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=BookingModal.css.map */
